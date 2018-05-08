@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  KZ_FPSLabel
+//  KZ_FPSLabel_iOS
 //
-//  Created by Kieron Zhang on 2017/10/17.
-//  Copyright © 2017年 Kieron Zhang. All rights reserved.
+//  Created by Kieron Zhang on 2018/5/8.
+//  Copyright © 2018年 Kieron Zhang. All rights reserved.
 //
 
 #import "ViewController.h"
-#import <KZ_FPSLabelFramework/KZ_FPSLabel.h>
+#import <KZ_FPSLabel_iOS/KZ_FPSLabel.h>
 
 @interface ViewController ()
 

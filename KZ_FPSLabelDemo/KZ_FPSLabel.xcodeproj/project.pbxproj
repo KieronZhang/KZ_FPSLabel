@@ -7,48 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE3E859C1F96175900553536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3E859B1F96175900553536 /* main.m */; };
-		AE3E859F1F96175900553536 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3E859E1F96175900553536 /* AppDelegate.m */; };
-		AE3E85A21F96175900553536 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3E85A11F96175900553536 /* ViewController.m */; };
-		AE3E85A51F96175900553536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3E85A31F96175900553536 /* Main.storyboard */; };
-		AE3E85A71F96175900553536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3E85A61F96175900553536 /* Assets.xcassets */; };
-		AE3E85AA1F96175900553536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3E85A81F96175900553536 /* LaunchScreen.storyboard */; };
-		AEA5EBEE1FC2AAC1003D7BD1 /* KZ_FPSLabelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBED1FC2AAC1003D7BD1 /* KZ_FPSLabelFramework.framework */; };
+		AEC62E9720A14FDC00DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62E9620A14FDC00DFC8B9 /* AppDelegate.m */; };
+		AEC62E9A20A14FDC00DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62E9920A14FDC00DFC8B9 /* ViewController.m */; };
+		AEC62E9D20A14FDC00DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62E9B20A14FDC00DFC8B9 /* Main.storyboard */; };
+		AEC62E9F20A14FDD00DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC62E9E20A14FDD00DFC8B9 /* Assets.xcassets */; };
+		AEC62EA220A14FDD00DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62EA020A14FDD00DFC8B9 /* LaunchScreen.storyboard */; };
+		AEC62EA520A14FDD00DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62EA420A14FDD00DFC8B9 /* main.m */; };
+		AEC62EAB20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62EAA20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		AEDC0FA61FC1D20900752728 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		AE3E85971F96175900553536 /* KZ_FPSLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_FPSLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE3E859B1F96175900553536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE3E859D1F96175900553536 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AE3E859E1F96175900553536 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE3E85A01F96175900553536 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE3E85A11F96175900553536 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AE3E85A41F96175900553536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE3E85A61F96175900553536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE3E85A91F96175900553536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE3E85AB1F96175900553536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEA5EBED1FC2AAC1003D7BD1 /* KZ_FPSLabelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_FPSLabelFramework.framework; sourceTree = "<group>"; };
+		AEC62E9320A14FDC00DFC8B9 /* KZ_FPSLabel_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_FPSLabel_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC62E9520A14FDC00DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC62E9620A14FDC00DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC62E9820A14FDC00DFC8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEC62E9920A14FDC00DFC8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEC62E9C20A14FDC00DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC62E9E20A14FDD00DFC8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC62EA120A14FDD00DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC62EA320A14FDD00DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC62EA420A14FDD00DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC62EAA20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_FPSLabel_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE3E85941F96175900553536 /* Frameworks */ = {
+		AEC62E9020A14FDC00DFC8B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA5EBEE1FC2AAC1003D7BD1 /* KZ_FPSLabelFramework.framework in Frameworks */,
+				AEC62EAB20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +45,7 @@
 		AE3E858E1F96175900553536 = {
 			isa = PBXGroup;
 			children = (
-				AE3E85991F96175900553536 /* KZ_FPSLabel */,
+				AEC62E9420A14FDC00DFC8B9 /* KZ_FPSLabel_iOS */,
 				AE3E85981F96175900553536 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,40 +53,32 @@
 		AE3E85981F96175900553536 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE3E85971F96175900553536 /* KZ_FPSLabel.app */,
+				AEC62E9320A14FDC00DFC8B9 /* KZ_FPSLabel_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE3E85991F96175900553536 /* KZ_FPSLabel */ = {
+		AEC62E9420A14FDC00DFC8B9 /* KZ_FPSLabel_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AE3E859D1F96175900553536 /* AppDelegate.h */,
-				AE3E859E1F96175900553536 /* AppDelegate.m */,
-				AE3E85A01F96175900553536 /* ViewController.h */,
-				AE3E85A11F96175900553536 /* ViewController.m */,
-				AEA5EBEC1FC2AAC1003D7BD1 /* FPSLabel */,
-				AE3E85A31F96175900553536 /* Main.storyboard */,
-				AE3E85A61F96175900553536 /* Assets.xcassets */,
-				AE3E85A81F96175900553536 /* LaunchScreen.storyboard */,
-				AE3E85AB1F96175900553536 /* Info.plist */,
-				AE3E859A1F96175900553536 /* Supporting Files */,
+				AEC62E9520A14FDC00DFC8B9 /* AppDelegate.h */,
+				AEC62E9620A14FDC00DFC8B9 /* AppDelegate.m */,
+				AEC62E9820A14FDC00DFC8B9 /* ViewController.h */,
+				AEC62E9920A14FDC00DFC8B9 /* ViewController.m */,
+				AEC62EA920A1502700DFC8B9 /* FPSLabel */,
+				AEC62E9B20A14FDC00DFC8B9 /* Main.storyboard */,
+				AEC62E9E20A14FDD00DFC8B9 /* Assets.xcassets */,
+				AEC62EA020A14FDD00DFC8B9 /* LaunchScreen.storyboard */,
+				AEC62EA320A14FDD00DFC8B9 /* Info.plist */,
+				AEC62EA420A14FDD00DFC8B9 /* main.m */,
 			);
-			path = KZ_FPSLabel;
+			path = KZ_FPSLabel_iOS;
 			sourceTree = "<group>";
 		};
-		AE3E859A1F96175900553536 /* Supporting Files */ = {
+		AEC62EA920A1502700DFC8B9 /* FPSLabel */ = {
 			isa = PBXGroup;
 			children = (
-				AE3E859B1F96175900553536 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AEA5EBEC1FC2AAC1003D7BD1 /* FPSLabel */ = {
-			isa = PBXGroup;
-			children = (
-				AEA5EBED1FC2AAC1003D7BD1 /* KZ_FPSLabelFramework.framework */,
+				AEC62EAA20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework */,
 			);
 			path = FPSLabel;
 			sourceTree = "<group>";
@@ -107,22 +86,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE3E85961F96175900553536 /* KZ_FPSLabel */ = {
+		AEC62E9220A14FDC00DFC8B9 /* KZ_FPSLabel_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE3E85AE1F96175900553536 /* Build configuration list for PBXNativeTarget "KZ_FPSLabel" */;
+			buildConfigurationList = AEC62EA820A14FDD00DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_FPSLabel_iOS" */;
 			buildPhases = (
-				AE3E85931F96175900553536 /* Sources */,
-				AE3E85941F96175900553536 /* Frameworks */,
-				AE3E85951F96175900553536 /* Resources */,
-				AEDC0FA61FC1D20900752728 /* Embed Frameworks */,
+				AEC62E8F20A14FDC00DFC8B9 /* Sources */,
+				AEC62E9020A14FDC00DFC8B9 /* Frameworks */,
+				AEC62E9120A14FDC00DFC8B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KZ_FPSLabel;
-			productName = KZ_FPSLabel;
-			productReference = AE3E85971F96175900553536 /* KZ_FPSLabel.app */;
+			name = KZ_FPSLabel_iOS;
+			productName = KZ_FPSLabel_iOS;
+			productReference = AEC62E9320A14FDC00DFC8B9 /* KZ_FPSLabel_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,11 +109,11 @@
 		AE3E858F1F96175900553536 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Kieron Zhang";
 				TargetAttributes = {
-					AE3E85961F96175900553536 = {
-						CreatedOnToolsVersion = 8.3.3;
+					AEC62E9220A14FDC00DFC8B9 = {
+						CreatedOnToolsVersion = 9.3;
 						DevelopmentTeam = TGTFTDLM8G;
 						ProvisioningStyle = Automatic;
 					};
@@ -154,50 +132,50 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE3E85961F96175900553536 /* KZ_FPSLabel */,
+				AEC62E9220A14FDC00DFC8B9 /* KZ_FPSLabel_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE3E85951F96175900553536 /* Resources */ = {
+		AEC62E9120A14FDC00DFC8B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3E85AA1F96175900553536 /* LaunchScreen.storyboard in Resources */,
-				AE3E85A71F96175900553536 /* Assets.xcassets in Resources */,
-				AE3E85A51F96175900553536 /* Main.storyboard in Resources */,
+				AEC62EA220A14FDD00DFC8B9 /* LaunchScreen.storyboard in Resources */,
+				AEC62E9F20A14FDD00DFC8B9 /* Assets.xcassets in Resources */,
+				AEC62E9D20A14FDC00DFC8B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE3E85931F96175900553536 /* Sources */ = {
+		AEC62E8F20A14FDC00DFC8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3E85A21F96175900553536 /* ViewController.m in Sources */,
-				AE3E859F1F96175900553536 /* AppDelegate.m in Sources */,
-				AE3E859C1F96175900553536 /* main.m in Sources */,
+				AEC62E9A20A14FDC00DFC8B9 /* ViewController.m in Sources */,
+				AEC62EA520A14FDD00DFC8B9 /* main.m in Sources */,
+				AEC62E9720A14FDC00DFC8B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE3E85A31F96175900553536 /* Main.storyboard */ = {
+		AEC62E9B20A14FDC00DFC8B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE3E85A41F96175900553536 /* Base */,
+				AEC62E9C20A14FDC00DFC8B9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AE3E85A81F96175900553536 /* LaunchScreen.storyboard */ = {
+		AEC62EA020A14FDD00DFC8B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE3E85A91F96175900553536 /* Base */,
+				AEC62EA120A14FDD00DFC8B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -219,6 +197,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -226,6 +205,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -274,6 +254,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -281,6 +262,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -309,41 +291,59 @@
 			};
 			name = Release;
 		};
-		AE3E85AF1F96175900553536 /* Debug */ = {
+		AEC62EA620A14FDD00DFC8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_FPSLabel/FPSLabel",
+					"$(PROJECT_DIR)/KZ_FPSLabel_iOS/FPSLabel",
 				);
-				INFOPLIST_FILE = KZ_FPSLabel/Info.plist;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_FPSLabel_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.FPSLabel;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-FPSLabel-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		AE3E85B01F96175900553536 /* Release */ = {
+		AEC62EA720A14FDD00DFC8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_FPSLabel/FPSLabel",
+					"$(PROJECT_DIR)/KZ_FPSLabel_iOS/FPSLabel",
 				);
-				INFOPLIST_FILE = KZ_FPSLabel/Info.plist;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_FPSLabel_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.FPSLabel;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-FPSLabel-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -359,11 +359,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE3E85AE1F96175900553536 /* Build configuration list for PBXNativeTarget "KZ_FPSLabel" */ = {
+		AEC62EA820A14FDD00DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_FPSLabel_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE3E85AF1F96175900553536 /* Debug */,
-				AE3E85B01F96175900553536 /* Release */,
+				AEC62EA620A14FDD00DFC8B9 /* Debug */,
+				AEC62EA720A14FDD00DFC8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
