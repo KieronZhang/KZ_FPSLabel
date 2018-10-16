@@ -13,7 +13,7 @@
 		AEC62E9F20A14FDD00DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC62E9E20A14FDD00DFC8B9 /* Assets.xcassets */; };
 		AEC62EA220A14FDD00DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62EA020A14FDD00DFC8B9 /* LaunchScreen.storyboard */; };
 		AEC62EA520A14FDD00DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62EA420A14FDD00DFC8B9 /* main.m */; };
-		AEC62EAB20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62EAA20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework */; };
+		AEF94D782175F6580063EE69 /* KZ_FPSLabel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D772175F6580063EE69 /* KZ_FPSLabel_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		AEC62EA120A14FDD00DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEC62EA320A14FDD00DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC62EA420A14FDD00DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEC62EAA20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_FPSLabel_iOS.framework; sourceTree = "<group>"; };
+		AEF94D772175F6580063EE69 /* KZ_FPSLabel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_FPSLabel_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC62EAB20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework in Frameworks */,
+				AEF94D782175F6580063EE69 /* KZ_FPSLabel_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 		AEC62EA920A1502700DFC8B9 /* FPSLabel */ = {
 			isa = PBXGroup;
 			children = (
-				AEC62EAA20A1502700DFC8B9 /* KZ_FPSLabel_iOS.framework */,
+				AEF94D772175F6580063EE69 /* KZ_FPSLabel_iOS.framework */,
 			);
 			path = FPSLabel;
 			sourceTree = "<group>";
@@ -313,7 +313,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-FPSLabel-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.FPSLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -341,7 +341,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-FPSLabel-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.FPSLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
